@@ -4,8 +4,10 @@ export default function Home() {
         document.title = "Home | Kit Portfolio";
     }, []);
   return (
-    <div>
-      this is home.
-    </div>
+    <>
+      <h1>Kit - Web Developer Portfolio</h1>
+      <h2>Projects</h2>
+      <h2>Skills</h2>
+    </>
   )
 }
