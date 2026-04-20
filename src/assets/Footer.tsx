@@ -3,43 +3,88 @@ import email from '../images/Email.svg'
 import github from '../images/Github.svg'
 import linkedin from '../images/Linkedin.svg'
 import { Link } from 'react-router'
+import '../styles/footer.css'
 
 export default function Footer() {
-    const scrollToTop = () => {
-        window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-     });
-};
-  return (
-    <div className="footer">
-        <div className="footer-container">
-            <div className="footer-left">
-                <div>
-                    Ankit Verma
-                    <a href="mailto:ankivermajnva@gmail.com?subject=Project Inquiry&body=Hi Kit, I want to discuss a project." className='footer-img back-to-top'><img src={email}/>ankivermajnva@gmail.com</a>
-                </div>
-                <div>Turning ideas into code — Kit  </div>
-            </div>
-            <div>
-                <Link className="mx-2 back-to-top" to="project">Projects</Link>
-                <Link className="mx-2 back-to-top" to="about">About-me</Link>
-                <Link className="mx-2 back-to-top" to="contact">contact</Link>
 
-            </div>
-            <div className="footer-right">
-                <div className='media'>Media</div>
-                <div className='footer-links'>
-                    <a title="LinkedIn - connect me." href="https://www.linkedin.com/in/ankit-verma-04a3051b7/" target="_blank" rel="noopener noreferrer" className="footer-img"><img src={linkedin}/></a>
-                    <a title="LeetCOde - a coding plateform. " href="https://leetcode.com/u/novakit/" target="_blank" rel="noopener noreferrer" className="footer-img"><img src={leetcode}/></a>
-                    <a title="GitHub - View my work" href="https://github.com/novakit7" target="_blank" rel="noopener noreferrer" className="footer-img"><img src={github}/></a>
-                </div>
-            </div>
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  return (
+    <footer className="footer">
+      <div className="footer-container">
+
+        {/* LEFT */}
+        <div className="footer-left">
+          <div className="name">Ankit Verma</div>
+
+          <a
+            href="mailto:ankivermajnva@gmail.com?subject=Project%20Inquiry&body=Hi%20Kit,%20I%20want%20to%20discuss%20a%20project."
+            className="footer-img email-link"
+          >
+            <img src={email} alt="email" />
+            ankivermajnva@gmail.com
+          </a>
+
+          <div className="tagline">
+            Turning ideas into code — Kit
+          </div>
         </div>
-        <div className="footer-bottom">
-            © 2026 Kit. All rights reserved.
-            <div onClick={scrollToTop} className="back-to-top"><i className="fa-solid fa-arrow-up"></i>BACK TO TOP</div>
+
+        {/* CENTER LINKS */}
+        <div className="footer-nav">
+          <Link onClick={scrollToTop} className="back-to-top" to="/projects">Projects</Link>
+          <Link onClick={scrollToTop} className="back-to-top" to="/about">About</Link>
+          <Link onClick={scrollToTop} className="back-to-top" to="/contact">Contact</Link>
         </div>
-    </div>
-  )
+
+        {/* RIGHT */}
+        <div className="footer-right">
+          <div className="media">Media</div>
+
+          <div className="footer-links">
+            <a
+              title="LinkedIn - connect me"
+              href="https://www.linkedin.com/in/ankit-verma-04a3051b7/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-img"
+            >
+              <img src={linkedin} alt="linkedin" />
+            </a>
+
+            <a
+              title="LeetCode - coding platform"
+              href="https://leetcode.com/u/novakit/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-img"
+            >
+              <img src={leetcode} alt="leetcode" />
+            </a>
+
+            <a
+              title="GitHub - view my work"
+              href="https://github.com/novakit7"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-img"
+            >
+              <img src={github} alt="github" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="footer-bottom">
+        <div>© 2026 Kit. All rights reserved.</div>
+        <button onClick={scrollToTop} className="back-to-top-btn">
+          ↑ Back to top
+        </button>
+      </div>
+    </footer>
+  );
 }

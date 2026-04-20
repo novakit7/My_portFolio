@@ -11,7 +11,7 @@ export default function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark fixed-top" style={{ backgroundColor: "#282C33" }}>
             <div className="container-fluid">
-                <Link className="nav-link active" style={{ color: "white" }} to="/">
+                <Link onClick={closeMenu} className="nav-link active" style={{ color: "white" }} to="/">
                 <span className="has">{"<!>"}</span>I Build, Therefore I Am</Link>
                 <a className="navbar-toggler" type="button"
                     data-bs-toggle="collapse" data-bs-target="#navbarNav" 
