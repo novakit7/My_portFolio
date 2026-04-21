@@ -21,7 +21,7 @@ export default function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
-                            <Link className="nav-link active mx-3" onClick={closeMenu} to="project"><span className="has">#</span>Projects</Link>
+                            <Link className="nav-link active mx-3" onClick={closeMenu} to="projects"><span className="has">#</span>Projects</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link active mx-3" onClick={closeMenu} to="about"><span className="has">#</span>About-me</Link>
