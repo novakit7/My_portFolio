@@ -1,5 +1,7 @@
-body {
+*{
   font-family: 'Fira Code', monospace;
+}
+body {
   font-size: 15px;
   background-color: #1E1E1E;
   margin: 0%;

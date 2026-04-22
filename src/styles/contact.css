@@ -1,0 +1,140 @@
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3vh;
+    margin-top: 5vh;
+}
+.left-cont{
+    width: 40vw;
+    padding: 2px;
+
+}
+.right-cont{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card1{
+    border: 2px solid rgb(186, 178, 178);
+    border-radius: 10px;
+    margin-top: 10vh;
+    padding: 5vh;
+}
+
+.cont-text{
+    padding: 10px;
+    margin-bottom: 5vh;
+}
+i{
+    color: gray;
+}
+.c-links {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  margin-top: 5px;
+  transition: 0.3s ease;
+}
+
+.c-links:hover {
+  color: #C778DD;
+  transform: scale(1.1);
+}
+.all-media{
+    border: 2px solid rgb(186, 178, 178);
+    border-radius: 10px;
+    padding: 10px;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-area{
+    background-color:#2b2b2b;
+    color: white;
+    padding: 10px;
+    border:1px solid #C778DD;
+    border-radius: 5px;
+    margin-top: 15px;
+    display: block;
+    width: 20vw;
+    height: 35px;
+    text-align: center;
+
+}
+.text-btn{
+    color: white;
+    background-color: #1E1E1E;
+    display: block;
+    padding: 3px;
+    border: 1px solid #C778DD;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+.text-btn:hover{
+    background-color: #C778DD;
+    color: #1E1E1E;
+    transform: scale(1.03);
+}
+
+/* ================== MOBILE ONLY ================== */
+@media (max-width: 760px) {
+
+  .contact {
+    flex-direction: column;
+    padding: 3vh;
+    margin-top: 4vh;
+    gap: 20px;
+  }
+
+  .left-cont,
+  .right-cont {
+    width: 100%;
+  }
+
+  .all-media {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .text-area {
+    width: 70vw;
+    height: auto;
+    min-height: 30px;
+    font-size: 14px;
+  }
+
+  textarea.text-area {
+    min-height: 60px;
+  }
+
+  .text-btn {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .card1 {
+    width: 100%;
+    padding: 3vh;
+    margin-top: 3vh;
+  }
+
+  .cont-text {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  li {
+    font-size: 14px;
+  }
+}
