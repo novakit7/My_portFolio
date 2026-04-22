@@ -1,20 +1,91 @@
 import { useEffect } from "react";
+import img from '../images/Image.png'
+import '../styles/contact.css'
 export default function About() {
     useEffect(() => {
         document.title = "About | Kit Portfolio";
     }, []);
   return (
-    <div>
-      <div className="left-cont">
-        <h1><span className="has">/</span>About-me</h1>
-        <h4>Who I am ?</h4>
-        <div>Not perfect, not an expert — just someone who genuinely enjoys building things and learning how they work.
-            I started coding out of curiosity, and over time it became something more — a way to create, solve problems, and express ideas.
-            I like experimenting, trying new things, and sometimes failing — because that’s where real learning happens.
-            Still learning. Still building. Still figuring things out.
-            Feel free to reach out — I’m always open to connecting.
+    <>
+    <div className="about">
+      <div className="a-left">
+        <h1 className="a-heading"><span className="has">//</span>About-me...</h1>     
+        <h3 className="has">Who I am ?</h3>
+        <h5>Hello I am Ankit..</h5>
+        <div className="a-text">
+          Not perfect, not an expert — just someone who genuinely enjoys building things and learning how they work.
+          Still learning. Still building. Still figuring things out.
+          <div className="a-text">I turn ideas into functional, engaging websites. With over a year of hands-on experience. I’m constantly learning 
+            and experimenting with modern technologies to build better, faster, and smarter web experiences.</div>
+        </div>
+      </div>
+      <div className="a-right"><img src = {img} alt="cover" /></div>
+    </div>
+    {/* skills section*/}
+    <div className="skills">
+      <h3 className="headdd"><span className="has">#</span>Skills{"<~>"}</h3>
+      <div className="a-boxes">
+        <div className="a-box">
+          <h5 className="a-b-head"><span className="has">{"<!>"}</span>Languages</h5>
+          <ul>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Python</li>
+            <li>C++</li>
+            <li>C</li>
+          </ul>
+        </div>
+        <div className="a-box">
+          <h5 className="a-b-head"><span className="has">{"<!>"}</span>Web Technologies</h5>
+          <ul>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>MongoDB</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+        <div className="a-box">
+          <h5 className="a-b-head"><span className="has">{"<!>"}</span>Tools & Platforms</h5>
+          <ul>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>VS Code</li>
+          </ul>
+
+        </div>
+        <div className="a-box">
+          <h5 className="a-b-head"><span className="has">{"<!>"}</span>Concepts</h5>
+          <ul>
+            <li>Data Structures</li>
+            <li>Algorithms</li>
+            <li>Problem Solving</li>
+            <li>REST APIs</li>
+            <li>Edge Case Handling</li>
+          </ul>
         </div>
       </div>
     </div>
+
+    {/* funfact */}
+    <div className="fun-cont">
+      <h3 className="headdd"><span className="has">#</span>my-fun-facts{"<~>"}</h3>
+      <div className="fun">
+        <span className="f-facts">I like winter more than summer...</span>
+        <span className="f-facts">I often bike with my friends...</span>
+        <span className="f-facts">I prefer tea over coffee...</span>
+        <span className="f-facts">I love the movie Interstellar...</span>
+        <span className="f-facts">I say “just one more bug” and then it’s 3am...</span>
+        <span className="f-facts">I rehearse conversations in my head that never happen...</span>
+        <span className="f-facts">I imagine fake scenarios while listening to music...</span>
+        <span className="f-facts">I enjoy watching rain for a long time...</span>
+        <span className="f-facts">I prefer reading over scrolling (sometimes..)</span>
+        <span className="f-facts">I enjoy the adrenaline during matches...</span>
+        <span className="f-facts">I love being around nature and greenery...</span>
+      </div>
+    </div>
+    </>
   )
 }

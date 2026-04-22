@@ -83,6 +83,75 @@ i{
     transform: scale(1.03);
 }
 
+/* for About me page. */
+
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20vh;
+}
+.a-left{
+  width: 70vw;
+  padding-right: 10vw;
+  padding-left: 10vw;
+}
+.a-right{
+  width: 20vw;
+  border-bottom: 4px solid #C778DD;
+}
+.a-text{
+
+  margin-top: 20px;
+}
+.a-heading{
+  padding: 20px;
+
+}
+
+.a-boxes{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+.a-box{
+  width: 20vw;
+  border: 3px solid gray;
+  margin: 5px;
+  border-radius: 5px;
+}
+.a-b-head{
+  border: 3px solid gray;
+}
+.headdd{
+  padding-left: 10vw;
+  margin-bottom: 10px;
+}
+.fun{
+  width: 80vw;
+  padding-left: 10vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px; 
+  padding-bottom: 15vh;
+}
+
+.f-facts{
+  border: 3px solid gray;
+  border-radius: 5px;
+  padding: 3px;
+  height: 30px;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.fun-cont{
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+
+
 /* ================== MOBILE ONLY ================== */
 @media (max-width: 760px) {
 
@@ -137,4 +206,68 @@ i{
   li {
     font-size: 14px;
   }
+
+  /* about */
+
+  .about {
+    flex-direction: column;
+    padding-right: 0;
+    gap: 20px;
+  }
+
+  .a-left {
+    width: 100%;
+    padding: 0 5vw;
+  }
+
+  .a-right {
+    display: none;
+  }
+
+  /* SKILLS SECTION */
+  .a-boxes {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .a-box {
+    width: 80%;
+  }
+
+  .a-b-head {
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  .a-box ul li {
+    font-size: 14px;
+  }
+
+  /* HEADINGS */
+  .headdd {
+    padding-left: 5vw;
+    font-size: 20px;
+    margin-top: 8vh;
+  }
+
+  /* FUN FACTS SECTION */
+  .fun {
+    width: 100%;
+    padding: 0 5vw;
+    gap: 8px;
+  }
+
+  .f-facts {
+    font-size: 13px;
+    padding: 5px 8px;
+    height: auto;
+    line-height: 1.4;
+  }
+
+  .fun-cont {
+    margin-top: 5vh;
+  }
 }
+
+

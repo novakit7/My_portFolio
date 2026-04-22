@@ -3,7 +3,7 @@
 }
 body {
   font-size: 15px;
-  background-color: #1E1E1E;
+  background: linear-gradient(135deg, #000000, #3a3a3a);
   margin: 0%;
   color: white;
   padding-top: 70px;

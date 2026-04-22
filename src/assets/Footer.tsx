@@ -37,9 +37,9 @@ export default function Footer() {
 
         {/* CENTER LINKS */}
         <div className="footer-nav">
-          <Link onClick={scrollToTop} className="back-to-top" to="/projects">Projects</Link>
-          <Link onClick={scrollToTop} className="back-to-top" to="/about">About</Link>
-          <Link onClick={scrollToTop} className="back-to-top" to="/contact">Contact</Link>
+          <Link onClick={scrollToTop} className="back-to-top" to="/projects">My-projects</Link>
+          <Link onClick={scrollToTop} className="back-to-top" to="/about">About-me</Link>
+          <Link onClick={scrollToTop} className="back-to-top" to="/contact">Contact-me</Link>
         </div>
 
         {/* RIGHT */}
