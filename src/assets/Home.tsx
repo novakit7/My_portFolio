@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import "../styles/home.css";
+import "../styles/Home.css";
 import heroImg from "../images/Image-1.png";
 
 export default function Home() {

@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Card from "./Cards";
-import "../styles/projects.css";
+import "../styles/Projects.css";
 import img from "../images/project.png"
 
 export default function Projects() {
