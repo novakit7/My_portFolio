@@ -7,13 +7,12 @@ export default function Contact() {
   return (
     <div className="contact">
       <div className="left-cont">
-        <h1><span className="has">//</span>Contact-me..</h1>
         <div className="cont-text">
-          <h4>Got something in mind?</h4>
+          <h3><span className="has">//</span>Got something in mind?</h3>
           Feel free to reach out — I’m always open to connecting.
         </div>
         <div className="all-media">
-          <form action="https://formspree.io/f/xnjlgyjd" method="POST">
+          <form  className="effect" action="https://formspree.io/f/xnjlgyjd" method="POST">
             <input className="text-area" type="text" name="name" required placeholder="Enter Your Name"/>
             <input className="text-area" type="email" name="email" required placeholder="Enter Your Email"/>
             <textarea className="text-area" name="message" required placeholder="Write your Message Here......"style={{height: "150px"}}></textarea>

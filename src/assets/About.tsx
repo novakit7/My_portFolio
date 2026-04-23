@@ -9,14 +9,13 @@ export default function About() {
     <>
     <div className="about">
       <div className="a-left">
-        <h1 className="a-heading"><span className="has">//</span>About-me...</h1>     
-        <h3 className="has">Who I am ?</h3>
+        <h2><span className="has">//</span>Who I am ?</h2>
         <h5>Hello I am Ankit..</h5>
         <div className="a-text">
           Not perfect, not an expert — just someone who genuinely enjoys building things and learning how they work.
           Still learning. Still building. Still figuring things out.
-          <div className="a-text">I turn ideas into functional, engaging websites. With over a year of hands-on experience. I’m constantly learning 
-            and experimenting with modern technologies to build better, faster, and smarter web experiences.</div>
+          <div className="a-text">Passionate about Data Structures & Algorithms, with a focus on writing efficient and optimized code.
+              Regularly solving problems to strengthen logic, patterns, and problem-solving skills.</div>
         </div>
       </div>
       <div className="a-right"><img src = {img} alt="cover" /></div>
@@ -78,7 +77,6 @@ export default function About() {
         <span className="f-facts">I prefer tea over coffee...</span>
         <span className="f-facts">I love the movie Interstellar...</span>
         <span className="f-facts">I say “just one more bug” and then it’s 3am...</span>
-        <span className="f-facts">I rehearse conversations in my head that never happen...</span>
         <span className="f-facts">I imagine fake scenarios while listening to music...</span>
         <span className="f-facts">I enjoy watching rain for a long time...</span>
         <span className="f-facts">I prefer reading over scrolling (sometimes..)</span>
