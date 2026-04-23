@@ -1,20 +1,41 @@
 *{
   font-family: 'Fira Code', monospace;
 }
-body {
-  font-size: 15px;
+/* body {
+  
   background: linear-gradient(135deg, #000000, #3a3a3a);
   margin: 0%;
   color: white;
-  padding-top: 70px;
-}
+  
+} */
 .has{
     color: #C778DD;
 }
 
-/* main section styling */
-
 .main-section{
   min-height: 85vh;
+}
+body {
+  padding-top: 70px;
+  background: radial-gradient(
+      circle at 20% 30%,
+      rgba(199, 120, 221, 0.08),
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at 80% 70%,
+      rgba(168, 85, 247, 0.06),
+      transparent 50%
+    ),
+    linear-gradient(
+      180deg,
+      #0f1117 0%,
+      #11131b 40%,
+      #0f1117 100%
+    );
+
+  background-attachment: fixed;
+  color: #e5e7eb;
+  font-size: 15px;
 }
 

@@ -8,7 +8,7 @@ export default function Contact() {
     <div className="contact">
       <div className="left-cont">
         <div className="cont-text">
-          <h3><span className="has">//</span>Got something in mind?</h3>
+          <h3><span className="has">{"<!>"}</span>Got something in mind?</h3>
           Feel free to reach out — I’m always open to connecting.
         </div>
         <div className="all-media">
@@ -21,9 +21,9 @@ export default function Contact() {
         </div>
       </div>
       <div className="right-cont">
-        <div className="suppot">
+        <div className="support">
           <div className="card1">
-            <h6>Support Me Here</h6>
+            <h6>Connect with Me Here</h6>
             <ul>
               <li>
               <a title="LinkedIn - connect me" href="https://www.linkedin.com/in/ankit-verma-04a3051b7/"
