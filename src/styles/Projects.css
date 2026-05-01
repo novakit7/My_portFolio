@@ -272,19 +272,3 @@
   color: #9ca3af;
   margin-bottom: 12px;
 }
-
-.small-card button {
-  background: transparent;
-  border: 1px solid #c778dd;
-  color: #c778dd;
-  padding: 5px 10px;
-  font-size: 12px;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.small-card button:hover {
-  background: #c778dd;
-  color: #0f1117;
-}

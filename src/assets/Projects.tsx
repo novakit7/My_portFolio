@@ -58,13 +58,19 @@ export default function Projects() {
             <span className="tag">HTML CSS</span>
             <h4>CSS experiments</h4>
             <p>Collection of my different little projects in css.</p>
-            <button>Live ↗</button>
+            <button className="glass-btn">Live{"<~>"}</button>
           </div>
           <div className="small-card">
             <span className="tag">HTML CSS</span>
             <h4>CSS experiments</h4>
             <p>Collection of my different little projects in css.</p>
-            <button>Live ↗</button>
+            <button className="glass-btn">Live{"<~>"}</button>
+          </div>
+          <div className="small-card">
+            <span className="tag">HTML CSS</span>
+            <h4>CSS experiments</h4>
+            <p>Collection of my different little projects in css.</p>
+            <button className="glass-btn">Live{"<~>"}</button>
           </div>
 
         </div>

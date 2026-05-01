@@ -34,22 +34,6 @@
 .accent {
   color: #c778dd;
 }
-
-/* ================= BUTTON ================= */
-.btn-primary {
-  display: inline-block;
-  padding: 10px 16px;
-  background: linear-gradient(135deg, #c778dd, #a855f7);
-  color: white;
-  border-radius: 6px;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-.btn-primary:hover {
-  transform: translateY(-2px);
-}
-
 /* ================= IMAGE ================= */
 .hero-right {
   position: relative;
@@ -67,7 +51,7 @@
   border-radius: 8px;
 }
 
-/* 🔥 underline FIXED */
+/*underline FIXED */
 .hero-right::after {
   content: "";
   position: absolute;
@@ -221,16 +205,6 @@
 
 .about-left {
   flex: 1;
-}
-
-/* button */
-.btn-outline {
-  display: inline-block;
-  margin-top: 10px;
-  border: 1px solid #c778dd;
-  padding: 6px 12px;
-  color: #c778dd;
-  text-decoration: none;
 }
 
 /* ================= MOBILE ================= */

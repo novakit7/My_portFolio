@@ -69,9 +69,7 @@ export default function Home() {
             Still learning, still improving.
           </p>
 
-          <Link to="/about" className="btn-outline">
-            Read more →
-          </Link>
+          <Link to="/about"><button className="glass-btn">Read more{"<~>"}</button></Link>
         </div>
 
       </section>

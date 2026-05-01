@@ -1,7 +1,6 @@
 /* ================= FOOTER ================= */
 .footer {
-  padding: 20px 20vw 10px;
-  margin: 10px;
+  padding: 20px 10vw 10px;
   color: #e5e7eb;
 }
 
@@ -103,21 +102,6 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-}
-
-.back-to-top-btn {
-  background: transparent;
-  border: 1px solid #c778dd;
-  color: #c778dd;
-  padding: 6px 12px;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.back-to-top-btn:hover {
-  background: #c778dd;
-  color: #0f1117;
 }
 
 /* ================= MOBILE ================= */

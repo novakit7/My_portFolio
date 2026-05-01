@@ -15,7 +15,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="footer glass">
+    <footer className="footer">
       <div className="footer-container">
 
         {/* LEFT */}
@@ -81,7 +81,7 @@ export default function Footer() {
       </div>
       <div className="footer-bottom">
         <div>© 2026 Kit. All rights reserved.</div>
-        <button onClick={scrollToTop} className="back-to-top-btn">Back to top</button>
+        <button onClick={scrollToTop} className="glass-btn">Back to top</button>
       </div>
     </footer>
   );
