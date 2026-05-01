@@ -35,12 +35,11 @@ body {
 
 /* =======================glass=====================*/
 .glass {
-  background-color: rgba(12, 3, 21, 0.92);
+  background-color: #11131b;
   
   border-radius: 15px;
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
   margin: 3px;
-  z-index: 9999;
 }
 
 .glass-btn {
