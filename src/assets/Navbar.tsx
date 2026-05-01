@@ -14,15 +14,15 @@ export default function Navbar() {
   return (
     <nav
       className="navbar navbar-expand-lg navbar-dark fixed-top glass"
-      style={{borderRadius : "15px", margin: "10px"}}
+      style={{borderRadius : "15px", margin: "10px",}}
     >
       <div className="container-fluid">
 
         <Link
           onClick={closeMenu}
-          className="navbar-brand" style={{fontSize : "16px"}}
+          className="navbar-brand" style={{fontSize : "12px"}}
           to="/"
-        ><span className="has">{"<!>"}</span><strong>I Build, Therefore I Am</strong>
+        ><strong><span className="has">{"<!>"}</span>I Build, Therefore I Am</strong>
         </Link>
         <button
           className="navbar-toggler"
