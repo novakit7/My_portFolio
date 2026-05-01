@@ -23,9 +23,7 @@ export default function Home() {
             I craft responsive websites where design meets logic and creativity.
           </p>
 
-          <Link to="/contact" className="btn-primary">
-            Contact me{"<~>"}
-          </Link>
+          <Link to="/contact"><button className="glass-btn">Contact me{"<~>"}</button></Link>
         </div>
 
         <div className="hero-right">

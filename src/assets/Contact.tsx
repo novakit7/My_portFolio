@@ -16,7 +16,7 @@ export default function Contact() {
             <input className="text-area" type="text" name="name" required placeholder="Enter Your Name"/>
             <input className="text-area" type="email" name="email" required placeholder="Enter Your Email"/>
             <textarea className="text-area" name="message" required placeholder="Write your Message Here......"style={{height: "150px"}}></textarea>
-            <button className="text-btn" type="submit">Start a Conversation</button>
+            <button className="text-btn glass" type="submit">Start a Conversation</button>
           </form>
         </div>
       </div>

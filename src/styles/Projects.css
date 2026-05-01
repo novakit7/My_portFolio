@@ -30,7 +30,7 @@
   border-radius: 12px;
   will-change: transform;
 
-  /* 🔥 gradient border trick */
+  /*gradient border trick */
   background: linear-gradient(#1a1d26, #1a1d26) padding-box,
               linear-gradient(135deg, #c778dd, transparent) border-box;
   border: 1px solid transparent;

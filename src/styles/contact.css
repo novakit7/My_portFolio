@@ -48,8 +48,6 @@
 }
 
 .text-btn {
-  background: linear-gradient(135deg, #c778dd, #a855f7);
-  border: none;
   padding: 10px;
   border-radius: 6px;
   color: white;
@@ -323,10 +321,13 @@
 /* small screens */
 @media (max-width: 480px) {
   .a-text {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .f-facts {
     font-size: 11px;
+  }
+  .a-right{
+    display: none;
   }
 }
