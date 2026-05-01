@@ -14,7 +14,6 @@ export default function Navbar() {
   return (
     <nav
       className="navbar navbar-expand-lg navbar-dark fixed-top glass"
-      style={{borderRadius : "15px", margin: "10px",}}
     >
       <div className="container-fluid">
 

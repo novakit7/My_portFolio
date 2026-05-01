@@ -35,11 +35,12 @@ body {
 
 /* =======================glass=====================*/
 .glass {
-  background: rgba(255, 255, 255, 0.1) !important;
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
-
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(12, 3, 21, 0.92);
+  
+  border-radius: 15px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  margin: 3px;
+  z-index: 9999;
 }
 
 .glass-btn {
